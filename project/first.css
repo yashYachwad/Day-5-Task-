@@ -1,0 +1,110 @@
+.head{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+#heading{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 150px;
+    width: auto;;
+    color: aliceblue;
+    font-size: large;
+    background-color: rgba(10, 9, 9, 0.619);
+    h1{
+        margin-left: 30px;
+    }
+    h4{
+        margin-right: 30px;
+        color: rgba(240, 248, 255, 0.731);
+    }
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(21, 216, 216);
+    color: white;
+    width: auto;
+}
+
+#img{
+    margin-left: 100px;
+    border:15px solid rgba(243, 242, 242, 0.692);
+}
+
+#firstpara{
+    width: 800px;
+    
+    margin-left: 40px;
+}
+
+#h2{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    width:800px ;
+    height: 70px;
+    margin-left: 40px;
+    margin-bottom: 2px;
+    
+    color: black;
+    #mag{
+        margin-right: 60px;
+        margin-bottom: 2px;
+    }
+    
+   
+  }
+
+#secondpara{
+    width: 800px;
+    height: 200px;
+    
+    margin-left: 40px;
+    display: inline-flex;
+ 
+ }
+
+
+ .mauris{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    #img{
+        margin-left: 0px;
+    }
+ }
+
+ #magnis{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 70px;
+ }
+
+ .body{
+    display: flex;
+    justify-content:space-around;
+   height: 600px;
+   #left{
+    margin-left: 0px;
+    margin-left: 2px;
+   }
+  
+    #right{
+        align-self:flex-start ;
+        /* align-items: flex-start; */
+        margin-left: 0px;
+        #color{
+            color: aquamarine;
+            
+        }
+       
+    }
+ }
